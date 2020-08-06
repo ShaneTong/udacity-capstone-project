@@ -1,2 +1,4 @@
 # udacity-capstone-project
 This is the repository for udacity capstone project. The project intends to do a regression analysis of short-term stock movement (one-day price percentage change) on news articles. Considering the scope of this project and that no effective algorithm to search for company names in a news articles is available, this project focuses on four technology stocks (Google, Amazon, Facebook, and Microsoft). The financial news articles dataset is downloaded from the Kaggle data page "US Financial News Articles" (https://www.kaggle.com/jeet2016/us-financial-news-articles) and stock data is acquired using pandas datareader.
+
+This project is developed in Amazon Web Services SageMaker. You need to upload the news_dataset.pickle into appropriate directory in your default S3 bucket in order to follow the notebook.
